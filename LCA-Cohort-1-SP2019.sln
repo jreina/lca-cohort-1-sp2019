@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\Bu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSortTests", "BubbleSortTests\BubbleSortTests.csproj", "{7DBCC3A1-C802-4E4F-8044-09D02DA9DAE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowerOfHanoi", "TowerOfHanoi\TowerOfHanoi.csproj", "{ABC837BF-9746-41A5-A05C-BEA358EECB96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4_Day1_Class", "Week4_Day1_Class\Week4_Day1_Class.csproj", "{33D9D022-3F44-4B18-B2EE-4A3D1182B5A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{7DBCC3A1-C802-4E4F-8044-09D02DA9DAE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DBCC3A1-C802-4E4F-8044-09D02DA9DAE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DBCC3A1-C802-4E4F-8044-09D02DA9DAE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC837BF-9746-41A5-A05C-BEA358EECB96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC837BF-9746-41A5-A05C-BEA358EECB96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC837BF-9746-41A5-A05C-BEA358EECB96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC837BF-9746-41A5-A05C-BEA358EECB96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33D9D022-3F44-4B18-B2EE-4A3D1182B5A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D9D022-3F44-4B18-B2EE-4A3D1182B5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D9D022-3F44-4B18-B2EE-4A3D1182B5A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D9D022-3F44-4B18-B2EE-4A3D1182B5A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
