@@ -7,6 +7,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ArcadeModels\ArcadeModels.csproj" />
+    <ProjectReference Include="..\MasterMind\MasterMind.csproj" />
+    <ProjectReference Include="..\TowerOfHanoi\Checkpoint1_TowerOfHanoi.csproj" />
   </ItemGroup>
 
 </Project>

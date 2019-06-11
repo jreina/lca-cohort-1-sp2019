@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using ArcadeModels;
 
 namespace TowerOfHanoi
 {
@@ -10,7 +11,7 @@ namespace TowerOfHanoi
      * Your program should repeat steps 1,2 and 3 until the game is won.
      * Your program should not allow a user to make an illegal move.
      **/
-    class TowerOfHanoi
+    public class TowerOfHanoi : ArcadeGame
     {
         private Dictionary<string, Stack<int>> _board = new Dictionary<string, Stack<int>>
         {

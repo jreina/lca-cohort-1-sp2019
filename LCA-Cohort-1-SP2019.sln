@@ -3,13 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{61B9866F-F538-4006-BC26-AA97F5F7549C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{61B9866F-F538-4006-BC26-AA97F5F7549C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSortTests", "BubbleSortTests\BubbleSortTests.csproj", "{7DBCC3A1-C802-4E4F-8044-09D02DA9DAE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSortTests", "BubbleSortTests\BubbleSortTests.csproj", "{7DBCC3A1-C802-4E4F-8044-09D02DA9DAE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkpoint1_TowerOfHanoi", "TowerOfHanoi\Checkpoint1_TowerOfHanoi.csproj", "{ABC837BF-9746-41A5-A05C-BEA358EECB96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkpoint1_TowerOfHanoi", "TowerOfHanoi\Checkpoint1_TowerOfHanoi.csproj", "{ABC837BF-9746-41A5-A05C-BEA358EECB96}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F5BA4B85-9D66-4C72-AB24-5D1F079CD1A5} = {F5BA4B85-9D66-4C72-AB24-5D1F079CD1A5}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4_Day1_Class", "Week4_Day1_Class\Week4_Day1_Class.csproj", "{33D9D022-3F44-4B18-B2EE-4A3D1182B5A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week4_Day1_Class", "Week4_Day1_Class\Week4_Day1_Class.csproj", "{33D9D022-3F44-4B18-B2EE-4A3D1182B5A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterMind", "MasterMind\MasterMind.csproj", "{0CDFA617-45CA-46E9-AFC1-6AB03B51B799}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F5BA4B85-9D66-4C72-AB24-5D1F079CD1A5} = {F5BA4B85-9D66-4C72-AB24-5D1F079CD1A5}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arcade", "Arcade\Arcade.csproj", "{7F3102E8-6857-46DE-BD3C-C16360A34DA1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0CDFA617-45CA-46E9-AFC1-6AB03B51B799} = {0CDFA617-45CA-46E9-AFC1-6AB03B51B799}
+		{F5BA4B85-9D66-4C72-AB24-5D1F079CD1A5} = {F5BA4B85-9D66-4C72-AB24-5D1F079CD1A5}
+		{ABC837BF-9746-41A5-A05C-BEA358EECB96} = {ABC837BF-9746-41A5-A05C-BEA358EECB96}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArcadeModels", "ArcadeModels\ArcadeModels.csproj", "{F5BA4B85-9D66-4C72-AB24-5D1F079CD1A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week5_Day1", "Week5_Day1\Week5_Day1.csproj", "{B821E1CC-E8AD-4311-A0CA-23844F949DD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +52,22 @@ Global
 		{33D9D022-3F44-4B18-B2EE-4A3D1182B5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33D9D022-3F44-4B18-B2EE-4A3D1182B5A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33D9D022-3F44-4B18-B2EE-4A3D1182B5A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CDFA617-45CA-46E9-AFC1-6AB03B51B799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CDFA617-45CA-46E9-AFC1-6AB03B51B799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CDFA617-45CA-46E9-AFC1-6AB03B51B799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CDFA617-45CA-46E9-AFC1-6AB03B51B799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F3102E8-6857-46DE-BD3C-C16360A34DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F3102E8-6857-46DE-BD3C-C16360A34DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F3102E8-6857-46DE-BD3C-C16360A34DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F3102E8-6857-46DE-BD3C-C16360A34DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5BA4B85-9D66-4C72-AB24-5D1F079CD1A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5BA4B85-9D66-4C72-AB24-5D1F079CD1A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5BA4B85-9D66-4C72-AB24-5D1F079CD1A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5BA4B85-9D66-4C72-AB24-5D1F079CD1A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B821E1CC-E8AD-4311-A0CA-23844F949DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B821E1CC-E8AD-4311-A0CA-23844F949DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B821E1CC-E8AD-4311-A0CA-23844F949DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B821E1CC-E8AD-4311-A0CA-23844F949DD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
