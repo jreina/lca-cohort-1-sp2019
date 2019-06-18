@@ -28,7 +28,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arcade", "Arcade\Arcade.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArcadeModels", "ArcadeModels\ArcadeModels.csproj", "{F5BA4B85-9D66-4C72-AB24-5D1F079CD1A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week5_Day1", "Week5_Day1\Week5_Day1.csproj", "{B821E1CC-E8AD-4311-A0CA-23844F949DD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week5_Day1", "Week5_Day1\Week5_Day1.csproj", "{B821E1CC-E8AD-4311-A0CA-23844F949DD9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarLot", "CarLot\CarLot.csproj", "{95568BC4-BB90-422B-A461-07831E9C0C24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveZeroes", "MoveZeroes\MoveZeroes.csproj", "{D8365E8F-C9A3-4911-AA4F-63C48B3B739D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,6 +72,14 @@ Global
 		{B821E1CC-E8AD-4311-A0CA-23844F949DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B821E1CC-E8AD-4311-A0CA-23844F949DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B821E1CC-E8AD-4311-A0CA-23844F949DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95568BC4-BB90-422B-A461-07831E9C0C24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95568BC4-BB90-422B-A461-07831E9C0C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95568BC4-BB90-422B-A461-07831E9C0C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95568BC4-BB90-422B-A461-07831E9C0C24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8365E8F-C9A3-4911-AA4F-63C48B3B739D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8365E8F-C9A3-4911-AA4F-63C48B3B739D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8365E8F-C9A3-4911-AA4F-63C48B3B739D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8365E8F-C9A3-4911-AA4F-63C48B3B739D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
