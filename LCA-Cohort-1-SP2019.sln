@@ -34,6 +34,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarLot", "CarLot\CarLot.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveZeroes", "MoveZeroes\MoveZeroes.csproj", "{D8365E8F-C9A3-4911-AA4F-63C48B3B739D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory", "Inventory\Inventory.csproj", "{9227EA1F-0EFB-45B1-802A-F19B2D2045D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +82,10 @@ Global
 		{D8365E8F-C9A3-4911-AA4F-63C48B3B739D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8365E8F-C9A3-4911-AA4F-63C48B3B739D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8365E8F-C9A3-4911-AA4F-63C48B3B739D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9227EA1F-0EFB-45B1-802A-F19B2D2045D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9227EA1F-0EFB-45B1-802A-F19B2D2045D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9227EA1F-0EFB-45B1-802A-F19B2D2045D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9227EA1F-0EFB-45B1-802A-F19B2D2045D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
