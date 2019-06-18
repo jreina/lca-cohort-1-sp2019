@@ -32,9 +32,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week5_Day1", "Week5_Day1\We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarLot", "CarLot\CarLot.csproj", "{95568BC4-BB90-422B-A461-07831E9C0C24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveZeroes", "MoveZeroes\MoveZeroes.csproj", "{D8365E8F-C9A3-4911-AA4F-63C48B3B739D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoveZeroes", "MoveZeroes\MoveZeroes.csproj", "{D8365E8F-C9A3-4911-AA4F-63C48B3B739D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory", "Inventory\Inventory.csproj", "{9227EA1F-0EFB-45B1-802A-F19B2D2045D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory", "Inventory\Inventory.csproj", "{9227EA1F-0EFB-45B1-802A-F19B2D2045D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroes", "SuperHeroes\SuperHeroes.csproj", "{84D35F30-FD3F-487B-A5DE-8D1CBD6F55AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,6 +88,10 @@ Global
 		{9227EA1F-0EFB-45B1-802A-F19B2D2045D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9227EA1F-0EFB-45B1-802A-F19B2D2045D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9227EA1F-0EFB-45B1-802A-F19B2D2045D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84D35F30-FD3F-487B-A5DE-8D1CBD6F55AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84D35F30-FD3F-487B-A5DE-8D1CBD6F55AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84D35F30-FD3F-487B-A5DE-8D1CBD6F55AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84D35F30-FD3F-487B-A5DE-8D1CBD6F55AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
